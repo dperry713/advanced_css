@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Continuous Rotation Animation</title>
+  <style>
+    /* Define the initial style for the icon/image */
+    .rotating-icon {
+      width: 100px; /* Adjust the size as needed */
+      height: 100px; /* Adjust the size as needed */
+      animation: rotate 2s linear infinite; /* Apply the rotation animation */
+    }
+
+    /* Define the keyframe animation for rotation */
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Rotating Icon Example</h1>
+  <img src="https://via.placeholder.com/100" alt="Rotating Icon" class="rotating-icon">
+</body>
+</html>

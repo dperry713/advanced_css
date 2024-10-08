@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f0f0; /* Light grey background for the webpage */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.background-fade {
+    background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue background */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* White text color for better contrast */
+    text-align: center;
+}
+
+.text-shadow {
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+    text-align: center;
+    margin-bottom: 20px;
+}
